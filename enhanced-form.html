@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   
+
+<meta name ="Description" content="Assignment page">''
+<meta name="author" content = "Mwema Mwai">
+  
+<title>="Week 2 Assignment😀HTML5 Content & Form Enhancement"</title>
+</head>
+<body> 
+    <h2>Continents of the World</h2> 
+<ol>
+    <li>Africa</li>
+    <li>Europe</li>
+    <li>Asia</li>
+    <li>America</li>
+    <li>Australia</li>
+</ol>
+<h2>Common Cereals</h2>
+<ul>
+    <li>Maize</li>
+    <li>Beans</li>
+    <li>Wheat</li>
+    <li>Oats</li>
+</ul>
+<h2>My Favourite abbreviations</h2>
+<dl>
+<dt>FMCG</dt>
+<dd>Fast Moving Consumer Goods</dd>
+<dt>KSL</dt>
+<dd>Kenya Sweets Limited</dd>
+<dt>EABL</dt>
+<dd>East Africa Breweries LImited</dd>
+<dt>KNH</dt>
+<dd>Kenyatta National Hospital</dd>
+
+</dl>
+
+<h2>List of Items</h2>
+<table border="1">
+<thead>
+    <tr>
+        <th>Item</th>
+        <th>Description of Job</th>
+        <th>Unit</th>
+        <th>Rate</th>
+        <th>Total Cost</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>General labour</td>
+        <td>2 x manual labourers needed for general platform work</td>
+        <td>per day</td>
+        <td>200</td>
+        <td>$400 per day</td>
+      
+    </tr>
+    <tr>
+        <td>Drilling crew</td>
+        <td> 1 x rig manager, 2 x drillers</td>
+        <td>per hour</td>
+        <td>$ 110</td>
+        <td>$2,640 per day</td>
+        
+    </tr>
+    <tr>
+        <td>HSE advisors</td>
+        <td> 1 * HSE advisor; 1 * auditor </td>
+        <td>per hour</td>
+        <td>$80 </td>
+        <td>1,600 per day</td>
+        
+    </tr>
+    <tr>
+        <td>Remote Medical Services</td>
+        <td> 1 nurse</td>
+        <td>Per day</td>
+        <td>$550</td>
+        <td>$550 per day</td>
+      
+    </tr>
+</tbody>
+</table>
+<h2>Image of my first carousel</h2>
+<img src="2.png" alt="Tips on digital marketing" width="600" height="400">
+ <img src="1.png" alt="Tips on digital marketing" width="600" height="400">
+ <img src="3.png" alt="Tips on digital marketing" width="600" height="400">
+ <section>
+
+ <video width="" height="" controls>
+    <source src="https://www.pexels.com/video/aeerial-view-of-city-with-tall-buildings-2818546/" type="video/mp4">
+    Your browser does not support the video tag.
+    </video>
+<br /><br />
+<h2>Listen to audio</h2>
+     <audio controls>
+        <source src="Go_Fi_Her_Riddim_Mix_Feat._Romain_Virgo,_Duane_Stephenson,_Lutan_Fyah_(Octobre_Refix_2017)(128k).m4a" type="audio/m4a">
+        Your browser does not support the audio tag.
+    </audio>
+    </section>
+
+    <section>
+    <h2>Registration Form</h2>
+    <form action="#" method="post" novalidate>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter your name" required minlength="3">
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required autocomplete="email">
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="e.g. 0712345678" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Account Details</legend>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required minlength="4" maxlength="15">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required minlength="6">
+
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select a country</option>
+                <option value="kenya">Kenya</option>
+                <option value="uganda">Uganda</option>
+                <option value="tanzania">Tanzania</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Additional Information</legend>
+            <label for="bio">Short Bio:</label>
+            <textarea id="bio" name="bio" rows="4" placeholder="Tell us about yourself" required></textarea>
+
+            <label>
+                <input type="checkbox" name="terms" required>
+                I agree to the terms and conditions
+            </label>
+        </fieldset>
+
+        <button type="submit">Register</button>
+    </form>
+</section>
+
+
+</body>
+
+</html>
+
